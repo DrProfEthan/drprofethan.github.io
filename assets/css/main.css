@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli');
+
 
 article, details, figure, footer, header, menu, nav, section, body {
   display: block;
@@ -6,7 +6,5 @@ article, details, figure, footer, header, menu, nav, section, body {
   padding: 0.1;
   border: 0;
   font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
   background-color: #212F3D;
 }
