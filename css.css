@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
-article, details, figure, footer, header, menu, nav, section, body {
+article, details, figure, footer, menu, nav, section, head，body {
   display: block;
   margin: 0.5;
   padding: 0.1;
