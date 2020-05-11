@@ -6,6 +6,7 @@
         <meta name="description" content="Converts Bells to USD and vice versa.">
         <title>Bells to USD Converter</title>
         <link rel="stylesheet" href="converterStyles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
         <script language="JavaScript">
             function bellsConverter(){
             document.converter.dollars.value = document.converter.bells.value * 0.01027
@@ -23,10 +24,16 @@
             <form name="converter">
                 <table>
                     <tr>
-                    <td>Animal Crossing Bell: </td><td><input type="text" name="bells" onChange="bellsConverter()" /></td>
+                        <td id="currency">Animal Crossing Bell:</td>
                     </tr>
                     <tr>
-                    <td>US Dollar: </td><td><input type="text" name="dollars" onChange="dollarsConverter()" /></td>
+                        <td><input type="text" name="bells" onChange="bellsConverter()" /></td>
+                    </tr>
+                    <tr>
+                        <td id="currency">US Dollar:</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="dollars" onChange="dollarsConverter()" /></td>
                     </tr>
                 </table>
             </form>
