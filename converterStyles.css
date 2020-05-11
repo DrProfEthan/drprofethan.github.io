@@ -18,6 +18,11 @@ h1{
     font-size: 3em;
 }
 
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
 main{
     padding-top: 10px;
     padding-left: 10px;
@@ -36,6 +41,15 @@ input{
     border-radius: 10px;
     border: solid 2px #a9a9a9;
     background-color: #f7f7f7;
+}
+
+#question{
+    color: #01ae33;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
 }
 
 @media only screen and (min-width: 768px){
