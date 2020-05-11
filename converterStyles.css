@@ -1,11 +1,13 @@
 body{
     margin: 0 auto;
     background-image: url(geometric-leaves.png);
+    overflow: hidden;
 }
 
 header{
     background-color: #01ae33;
     padding-left: 10px;
+    width: 100%;
 }
 
 h1{
@@ -39,4 +41,12 @@ input{
     border-radius: 10px;
     border: solid 2px #a9a9a9;
     background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 760px) {
+    header{
+        background-color: #01ae33;
+        padding-left: 10px;
+        width: 100%;
+    }
 }
