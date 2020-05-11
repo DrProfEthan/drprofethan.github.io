@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    margin: 0 auto;
+    background-image: url(geometric-leaves.png);
 }
 
 header{
@@ -17,17 +18,25 @@ h1{
 
 main{
     padding-top: 10px;
-    padding-left: 10px;
 }
 
 form{
-    display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+table{
+    margin: 0 auto;
 }
 
 input{
     height: 1.5em;
     width: 20em;
+    font-size: 0.75em;
+    border-radius: 10px;
+    border: solid 2px #a9a9a9;
+    background-color: #f7f7f7;
 }
