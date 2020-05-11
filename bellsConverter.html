@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Converts Bells to USD and vice versa.">
+        <title>Bells to USD Converter</title>
+        <link rel="stylesheet" href="converterStyles.css">
+        <script language="JavaScript">
+            function bellsConverter(){
+            document.converter.dollars.value = document.converter.bells.value * 0.01027
+            }
+            function dollarsConverter(){
+            document.converter.bells.value = document.converter.dollars.value / 0.01027
+            }
+            </script>
+    </head>
+    <body>
+        <header>
+            <h1>Bells to USD Converter</h1>
+        </header>
+        <main>
+            <form name="converter">
+                <table>
+                    <tr>
+                    <td>Animal Crossing Bell: </td><td><input type="text" name="bells" onChange="bellsConverter()" /></td>
+                    </tr>
+                    <tr>
+                    <td>US Dollar: </td><td><input type="text" name="dollars" onChange="dollarsConverter()" /></td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+    </body>
+</html>
