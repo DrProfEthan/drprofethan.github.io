@@ -37,6 +37,7 @@ form{
 input{
     height: 1.5em;
     width: 20em;
+    max-width: 500px;
     font-size: 0.75em;
     border-radius: 10px;
     border: solid 2px #a9a9a9;
